@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="super_big_font_size">22sp</dimen>
+    <dimen name="ultra_big_font_size">20sp</dimen>
+    <dimen name="very_big_font_size">18sp</dimen>
+    <dimen name="big_font_size">16sp</dimen>
+    <dimen name="normal_font_size">14sp</dimen>
+    <dimen name="small_font_size">12sp</dimen>
+    <dimen name="very_small_font_size">10sp</dimen>
+    <dimen name="tiny_font_size">8sp</dimen>
+
+    <dimen name="very_big_gap">32dp</dimen>
+    <dimen name="big_gap">16dp</dimen>
+    <dimen name="normal_gap">8dp</dimen>
+    <dimen name="small_gap">4dp</dimen>
+
+    <dimen name="normal_corner_radius">5dp</dimen>
+    <dimen name="small_corner_radius">3dp</dimen>
+    <dimen name="large_corner_radius">8dp</dimen>
+
+    <dimen name="small_icon_size">15dp</dimen>
+    <dimen name="normal_icon_size">25dp</dimen>
+    <dimen name="large_icon_size">40dp</dimen>
+</resources>
