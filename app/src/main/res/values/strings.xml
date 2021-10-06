@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BaseModule</string>
+    <string name="ok">قبول</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="cancel">انصراف</string>
+</resources>
