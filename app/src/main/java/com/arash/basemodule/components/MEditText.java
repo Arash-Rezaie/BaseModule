@@ -16,7 +16,6 @@ import com.arash.basemodule.contracts.Predicate;
 import com.arash.basemodule.exceptions.EmptyException;
 import com.arash.basemodule.exceptions.InputNotAcceptableException;
 import com.arash.basemodule.exceptions.MalformedException;
-import com.arash.basemodule.tools.Utils;
 
 @SuppressLint("AppCompatCustomView")
 public class MEditText extends EditText implements IView<String> {
@@ -70,7 +69,7 @@ public class MEditText extends EditText implements IView<String> {
         boolean result = true;
         RuntimeException trb = null;
         if (txt.isEmpty() && isRequired()) {
-            Toast.makeText(getContext(), R.string.noEmptyValue, Toast.LENGTH_LONG).show();
+            Toast.makeText(getContext(), R.string.emptyValueNotAllowed, Toast.LENGTH_LONG).show();
             trb = new EmptyException(this);
             result = false;
         }

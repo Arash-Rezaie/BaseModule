@@ -4,4 +4,6 @@
     <string name="yes">بله</string>
     <string name="no">خیر</string>
     <string name="cancel">انصراف</string>
+    <string name="emptyValueNotAllowed">مقدار خالی مجاز نیست</string>
+    <string name="wrongPattern">الگو اشتباه است</string>
 </resources>
